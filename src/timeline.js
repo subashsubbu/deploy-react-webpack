@@ -35,8 +35,6 @@ export function timelineFactory(callback) {
     // jspsych is in the node_modules
     const base_path = "/src/images/";
     let targets = [];
-    ///Users/jamesvlasak/jspsych_react_picturetask/src/static
-    //targets = targets.map(target => `${base_path}${target}`);
 
     var imageNumber;
     var fileName;
